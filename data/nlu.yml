@@ -10,8 +10,21 @@ nlu:
     - good morning
     - good evening
     - moin
+    - bonjour
+    - buenos dias
+    - good day
+    - howdy
+    - hi-ya
+    - hi there
+    - greetings
+    - hi hi
+    - hello synthia
+    - hi synthia
+    - hey synthia
+    - hello there synthia
+    - good morning synthia
     - hey there
-    - let's go
+    - lets go
     - hey dude
     - goodmorning
     - goodevening
@@ -24,11 +37,19 @@ nlu:
     - cee you later
     - good night
     - bye
+    - bye synthia
+    - goodbye synthia
+    - bye bye synthia
+    - goodbye for now
     - goodbye
     - have a nice day
     - see you around
     - bye bye
     - see you later
+    - see you soon
+    - talk to you later
+    - bye for now
+    - I must go
 
 - intent: affirm
   examples: |
@@ -38,6 +59,16 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - alright
+    - alright then
+    - sure
+    - ok
+    - yeah
+    - yup
+    - cool
+    - great
+    - okay
+    - yes please
 
 - intent: deny
   examples: |
@@ -48,10 +79,31 @@ nlu:
     - don't like that
     - no way
     - not really
+    - nope
+    - no thank you
+    - no thanks
+    - thanks but no thanks
+    - thank you but no thank you
+    - thank you but no thanks
+    - I don't want that
+    - I don't want that at all
+    - I don't want that either
+    - I don't want that either at all
+    - not today
+    - maybe not
+    - not now
+    - I changed my mind
+    - I don't think that will work for me
+    - no I don't think that will work for me
+    - no I don't think that's right for me
+    - no I don't think so
+    - no I don't think that's right
 
 - intent: mood_great
   examples: |
     - perfect
+    - good
+    - very good
     - great
     - amazing
     - feeling like a king
@@ -83,9 +135,37 @@ nlu:
     - so saad
     - so sad
 
+- intent: thank
+  examples: |
+    - thanks
+    - thank you
+    - thank you so much
+    - thanks synthia
+    - thank you synthia
+    - thanks a lot
+    - thanks a bunch
+    - thank you very much
+    - thanks for that
+    - cheers
+    - cheers synthia
+    - tysm
+    - thank you so much synthia
+    - thank you very much synthia
+    - ty
+    - thank you kindly
+
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - what are you?
+    - are you a real person?
+    - you're a bot?
+    - are you a bot or human?
+    - I want to know if you are a bot or human
+    - tell me if you're a bot or a human
+    - can you tell me if you're a bot or a human
+    - say bot or human
+    - are you real?
