@@ -8,6 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - thank
+  - funny
   - bot_challenge
 
 responses:
@@ -39,14 +40,29 @@ responses:
   - text: "Hi! Synthia here. How are you?"
 
   utter_cheer_up:
-  - text: "Sending you a burst of positivity! Remember brighter days are just around the corner."
-  - text: "You've got this. I believe in your strength and resilience!"
-  - text: "When things are tough, remember how far you've come. You've got this!"
-  - text: "Sending you a virtual hug! Remember brighter days are just around the corner."
-  - text: "Cheer up buttercup! Remember brighter days are just around the corner."
-  - text: "Virtual high-five! Remember brighter days are just around the corner."
-  - text: "Let's focus on the good vibes. You're capable of incredible things!"
-  - text: "It's okay to feel down sometimes, but don't forget the sunshine that follows the rain!"
+  - text: "I'm sorry to hear that. Sending you a burst of positivity! Remember brighter days are just around the corner."
+  - text: "I'm sorry to hear that. You've got this. I believe in your strength and resilience!"
+  - text: "I'm sorry to hear that. Sending you a virtual hug! Remember brighter days are just around the corner."
+  - text: "I'm sorry to hear that. Sending you lots of love! Remember brighter days are just around the corner."
+  - text: "I'm sorry to hear that. Remember brighter days are just around the corner."
+  - text: "I'm sorry to hear that. Let's focus on the good vibes. You're capable of incredible things!"
+  - text: "I'm sorry to hear that. It's okay to feel down sometimes, but don't forget the sunshine that follows the rain!"
+  - text: "I'm sorry to hear that. You're capable of incredible things! Remember brighter days are just around the corner."
+  - text: "I'm sorry to hear that. Remember, you're capable of incredible things!"
+  - text: "I'm sorry to hear that. Remember, you've got this!"
+  - text: "I'm sorry to hear that. Remember, you're stronger than you think!"
+  - text: "I'm sorry to hear that. Remember, you're capable of amazing things!"
+  - text: "I'm sorry to hear that. If you want to talk, I'm here for you."
+  - text: "I'm sorry to hear that. If you need to talk, I'm here for you."
+  - text: "I'm sorry to hear that. If you need me, I'm here for you."
+  - text: "I'm sorry to hear that. If you want me, I'm here for you."
+  - text: "I'm sorry to hear that. If you need anything, I'm here for you."
+  - text: "I'm sorry to hear that. It's okay to feel down sometimes, I know you'll get through this. I believe in you!"
+  - text: "I'm sorry to hear that. I know you'll get through this. I believe in you!"
+  - text: "I'm sorry to hear that. I know you'll get through this. I believe in your strength and resilience!"
+  - text: "I'm sorry to hear that. I know you'll get through this. I'm here for you!"
+  - text: "I'm sorry to hear that. I know you'll get through this. If you need me, I'm here for you. Okay?"
+  - text: "I'm sorry to hear that. I know you'll get through this. If you want me, I'm here for you. Okay?"
 
   utter_did_that_help:
   - text: "Did that help you?"
@@ -119,11 +135,29 @@ responses:
   - text: "It's my pleasure to be of aid!"
   - text: "It's my pleasure to be of service to you!"
 
+  utter_funny:
+  - text: "I'm glad you found that funny!"
+  - text: "I'm glad you found that humorous!"
+  - text: "I'm glad you found that entertaining!"
+  - text: "I'm glad you found that humorous, I aim to please!"
+  - text: "I'm glad you found that entertaining, I aim to please!"
+  - text: "I'm glad you found that funny, I aim to please!"
+  - text: "I'm glad you had a laugh!"
+  - text: "I'm glad you had a chuckle!"
+  - text: "I'm glad you had a giggle!"
+  - text: "I'm glad you are entertained!"
+  - text: "I'm glad you are having a good time!"
+  - text: "I'm glad you are having fun!"
+  - text: "I'm glad you are enjoying this!"
+
   utter_iamabot:
   - text: "My name is Synthia. I'm designed to help you."
   - text: "My name is Synthia. I'm created to help you."
   - text: "My name is Synthia. I'm here to help you."
   - text: "My name is Synthia. I'm here to help you out."
+  - text: "My name is Synthia. I'm designed to assist you."
+  - text: "My name is Synthia. I'm created to assist you."
+  - text: "My name is Synthia. I'm here to assist you."
   - text: "My name is Synthia. I'm here to help you out with your queries."
   - text: "My name is Synthia. I'm here to help you out with your questions."
   - text: "My name is Synthia. I'm here to help you out with your concerns."

@@ -154,6 +154,29 @@ nlu:
     - ty
     - thank you kindly
 
+- intent: funny
+  examples: |
+    - haha
+    - it's funny
+    - it is funny
+    - it was funny
+    - lol
+    - hahaha
+    - ha ha
+    - hehe
+    - he he
+    - hoho
+    - ho ho
+    - lmao
+    - rofl
+    - lolz
+    - xD
+    - XD
+    - :D
+    - :)
+    - :-)
+    - :-D
+
 - intent: bot_challenge
   examples: |
     - are you a bot?
