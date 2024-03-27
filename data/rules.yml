@@ -21,3 +21,8 @@ rules:
   steps:
   - intent: thank
   - action: utter_welcome
+
+- rule: Handle suicidal thoughts
+  steps:
+  - intent: suicidal_thoughts
+  - action: utter_handle_suicidal_thoughts

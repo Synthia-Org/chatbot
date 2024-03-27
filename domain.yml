@@ -10,6 +10,7 @@ intents:
   - thank
   - funny
   - bot_challenge
+  - suicidal_intent
 
 responses:
   utter_greet:
@@ -168,6 +169,12 @@ responses:
   - text: "My name is Synthia. I'm here to help you out with your fears."
   - text: "My name is Synthia. I'm here to help you out with your troubles."
   - text: "My name is Synthia. I'm here to help you out with your difficulties."
+
+  utter_suicidal_intent:	
+  - text: "I'm sorry to hear that you're feeling this way. Please remember that you're not alone. If you're in immediate danger, please call emergency services or you can seek help from one of our recommended student counselors in the home page" 
+  - text: "Remember life is worth living.. this time will pass so keep it up! you got thiss! I belive in you! :) "
+  - text: "I hear you, and I want you to know that you're not alone. It's essential to talk to someone about what you're going through. You can reach out to a friend, family member, or a mental health professional for support. "
+  - text: "There's a quote saying 'Winter wont last forever' life is like that too. keep in mind this time is only temporary. There are so many things you can enjoy and love in this world! cofus on them and you'll be fine"
 
 session_config:
   session_expiration_time: 60

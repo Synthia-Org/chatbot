@@ -33,3 +33,12 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: sad path 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: suicidal_intent
+  - action: utter_suicidal_intent
+  - inetnt: thank
+  - action: utter_welcome

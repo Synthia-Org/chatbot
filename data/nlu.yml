@@ -1,5 +1,6 @@
 version: "3.1"
 
+# words the user would ask from the chatbot
 nlu:
 - intent: greet
   examples: |
@@ -32,7 +33,7 @@ nlu:
 
 - intent: goodbye
   examples: |
-    - cu
+    - c u
     - good by
     - cee you later
     - good night
@@ -192,3 +193,15 @@ nlu:
     - can you tell me if you're a bot or a human
     - say bot or human
     - are you real?
+
+- intent: suicidal_intent
+    examples: |
+      - I want to end my life
+      - I'm thinking about suicide
+      - I can't go on anymore
+      - I cant do this anymore
+      - I wanna die
+      - I want to die
+      - I can't take this anymore
+      - I have had enough
+      - I'm done with life
