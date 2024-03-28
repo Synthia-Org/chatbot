@@ -1,6 +1,5 @@
 version: "3.1"
 
-# words the user would ask from the chatbot
 nlu:
 - intent: greet
   examples: |
@@ -33,7 +32,7 @@ nlu:
 
 - intent: goodbye
   examples: |
-    - c u
+    - cu
     - good by
     - cee you later
     - good night
@@ -135,7 +134,6 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-    - I'm having a bad day
 
 - intent: thank
   examples: |
@@ -194,65 +192,3 @@ nlu:
     - can you tell me if you're a bot or a human
     - say bot or human
     - are you real?
-
-- intent: suicidal_intent
-    examples: |
-      - I want to end my life
-      - I'm thinking about suicide
-      - I can't go on anymore
-      - I cant do this anymore
-      - I wanna die
-      - I want to die
-      - I can't take this anymore
-      - I have had enough
-      - I'm done with life
-
-- intent: seeking_support
-    examples: |
-    -Can you talk to me? I'm feeling lonely
-    -I need someone to listen to me
-    -I'm going through a tough time, and I could use some support
-    -I feel like I have nobody to turn to
-    -I'm struggling, and I don't know what to do
-    -I feel isolated and need someone to talk to
-
-- intent: offering_resources
-    examples: |
-    -Where can I find resources for mental health support?
-    -I need some resources for self-help. Can you provide any suggestions?
-    -Are there any resources you recommend for improving mental well-being?
-    -I'm feeling overwhelmed lately. Can you point me to some resources for managing stress?
-    -I'm looking for additional support. Do you have any resources you can recommend?
-
-- intent: providing_encouragement
-    examples: |
-   -I'm feeling like I'm not good enough. Can you provide some encouragement to help me believe in myself?
-   -I'm lacking motivation. Can you provide some encouragement to help me stay focused on my goals?
-   -I'm feeling really down lately. Can you offer some words of encouragement?
-   -I'm facing a tough situation right now. Do you have any encouragement to share?
-   -I could use some motivation. Can you provide some words of encouragement?
-   -I'm struggling to stay positive. Can you offer any words of encouragement to lift my spirits?
-
-- intent: academic_stress
-    examples: |
-   - I'm feeling overwhelmed with my schoolwork. What should I do?
-   - I'm struggling to balance my academic responsibilities. Can you help?
-   - I'm feeling anxious about my grades. What can I do to manage this stress?
-   - I'm having trouble focusing on my studies. Do you have any tips to help me concentrate?
-   - I'm feeling stressed about my academic performance. Can you provide some strategies to cope with this pressure?
-   - I'm worried about meeting deadlines for my assignments. How can I manage this stress?
-   - I'm feeling burnt out from studying. What can I do to recharge and stay motivated?
-
-- intent: express_gratitude
-  examples: |
-    - I'm grateful for my supportive friends
-    - Thank you for always listening to me
-    - Gratitude has helped me stay positive during tough times
-    - This was helpful
-    - Thank you for helping me
-    - I'm so grateful for your support
-    - I'm so greatful for your help
-    - I'm so grateful for your guidance
-    - I'm so grateful for your advice
-    - I'm so grateful for your assistance
-    - thank you for being there for me
