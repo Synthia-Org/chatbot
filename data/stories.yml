@@ -53,3 +53,11 @@ stories:
   - intent: affirm
   - action: utter_gratitude
 
+- story: seeking resources after expressing need for support
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: seeking_support
+  - action: utter_seek_support
+  - intent: affirm
+  - action: utter_resources

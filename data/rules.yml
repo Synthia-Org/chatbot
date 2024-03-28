@@ -33,3 +33,8 @@ rules:
   - action: utter_seek_support
   - intent: affirm
   - action: utter_resources
+
+- rule: Provide encouragement when user expresses unhappiness
+  steps:
+  - intent: mood_unhappy
+  - action: utter_encouragement

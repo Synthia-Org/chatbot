@@ -200,7 +200,18 @@ responses:
   - text: "These resources are here to support you in your journey: http://localhost:3000/resources/. This is the resources page of Synthia where you can find additional support."
   - text: "Finding the right support is crucial. Here are some resources that may be helpful: http://localhost:3000/resources/. This is the resources page of Synthia where you can find additional support."
 
-
+  utter_encouragement:
+  - text: "You're stronger than you think. Keep pushing forward."
+  - text: "Every setback is a setup for a comeback. You've got this!"
+  - text: "Believe in yourself. You're capable of overcoming any challenge."
+  - text: "Challenges are opportunities in disguise. You're capable of rising above them."
+  - text: "Even on your darkest days, remember that there's light ahead. Keep moving forward."
+  - text: "Your strength and resilience will carry you through. Keep going!"
+  - text: "Difficult roads often lead to beautiful destinations. Keep persevering."
+  - text: "Tough times don't last, but tough people do. You've got what it takes to overcome."
+  - text: "You're not defined by your struggles. You're defined by how you overcome them."
+  - text: "Your journey may be challenging, but it's also full of growth and possibility. Keep going!"
+  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

@@ -209,18 +209,26 @@ nlu:
 
 - intent: seeking_support
     examples: |
-    -Can you talk to me? I'm feeling lonely.
-    -I need someone to listen to me.
-    -I'm going through a tough time, and I could use some support.
-    -I feel like I have nobody to turn to.
-    -I'm struggling, and I don't know what to do.
-    -I feel isolated and need someone to talk to.
+    -Can you talk to me? I'm feeling lonely
+    -I need someone to listen to me
+    -I'm going through a tough time, and I could use some support
+    -I feel like I have nobody to turn to
+    -I'm struggling, and I don't know what to do
+    -I feel isolated and need someone to talk to
 
 - intent: offering_resources
-    examples:
-    -Have you tried practicing mindfulness exercises? They can help reduce anxiety.
-    -Would you like me to provide some relaxation techniques?
-    -Here are some helpline numbers you can reach out to for immediate support.
-    -Have you considered therapy? It could be beneficial to talk to a professional.
-    -There are online support groups where you can connect with others who are going through similar experiences.
-    -Meditation and deep breathing exercises can help you manage stress. Would you like me to guide you through some?
+    examples: |
+    -Where can I find resources for mental health support?
+    -I need some resources for self-help. Can you provide any suggestions?
+    -Are there any resources you recommend for improving mental well-being?
+    -I'm feeling overwhelmed lately. Can you point me to some resources for managing stress?
+    -I'm looking for additional support. Do you have any resources you can recommend?
+
+- intent: providing_encouragement
+    examples: |
+   -I'm feeling like I'm not good enough. Can you provide some encouragement to help me believe in myself?
+   -I'm lacking motivation. Can you provide some encouragement to help me stay focused on my goals?
+   -I'm feeling really down lately. Can you offer some words of encouragement?
+   -I'm facing a tough situation right now. Do you have any encouragement to share?
+   -I could use some motivation. Can you provide some words of encouragement?
+   -I'm struggling to stay positive. Can you offer any words of encouragement to lift my spirits?
