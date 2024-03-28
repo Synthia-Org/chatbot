@@ -26,3 +26,10 @@ rules:
   steps:
   - intent: suicidal_thoughts
   - action: utter_handle_suicidal_thoughts
+
+- rule: Offer additional resources after providing initial support
+  steps:
+  - intent: seeking_support
+  - action: utter_seek_support
+  - intent: affirm
+  - action: utter_resources

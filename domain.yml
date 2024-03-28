@@ -176,6 +176,31 @@ responses:
   - text: "I hear you, and I want you to know that you're not alone. It's essential to talk to someone about what you're going through. You can reach out to a friend, family member, or a mental health professional for support. "
   - text: "There's a quote saying 'Winter wont last forever' life is like that too. keep in mind this time is only temporary. There are so many things you can enjoy and love in this world! cofus on them and you'll be fine"
 
+  utter_seek_support:
+  - text: "I'm here to listen. You can talk to me about anything."
+  - text: "You're not alone. I'm here to support you."
+  - text: "It's okay to ask for help. What's on your mind?"
+  - text: "I'm here to lend an ear. Feel free to share what's bothering you."
+  - text: "Seeking support is a brave step. I'm here for you."
+  - text: "You're not alone in this. Let's talk about how you're feeling."
+  - text: "I'm here to provide support and guidance. How can I assist you today?"
+  - text: "Opening up can be difficult, but it's important. I'm here to listen whenever you're ready."
+  - text: "It's okay to reach out for support. I'm here to help in any way I can."
+  - text: "You're brave for seeking support. Let's talk about what's on your mind."
+
+  utter_resources:
+  - text: "Here are some resources that might be helpful: http://localhost:3000/resources/. This is the resources page of Synthia where you can find additional support."
+  - text: "If you're looking for support, consider reaching out to these organizations: http://localhost:3000/resources/. This is the resources page of Synthia where you can find additional support."
+  - text: "In addition to our conversation, here are some resources you can explore: http://localhost:3000/resources/. This is the resources page of Synthia where you can find additional support."
+  - text: "If you need more support, these resources are available to assist you: http://localhost:3000/resources/. This is the resources page of Synthia where you can find additional support."
+  - text: "It's important to have access to support when you need it. Here are some resources you can turn to: http://localhost:3000/resources/. This is the resources page of Synthia where you can find additional support."
+  - text: "Remember, you're not alone. Here are some resources that offer support: http://localhost:3000/resources/ . This is the resources page of Synthia where you can find additional support."
+  - text: "Exploring different resources can provide additional support. Here are some options to consider: http://localhost:3000/resources/. This is the resources page of Synthia where you can find additional support."
+  - text: "Whether you need immediate assistance or ongoing support, these resources can help: http://localhost:3000/resources/. This is the resources page of Synthia where you can find additional support."
+  - text: "These resources are here to support you in your journey: http://localhost:3000/resources/. This is the resources page of Synthia where you can find additional support."
+  - text: "Finding the right support is crucial. Here are some resources that may be helpful: http://localhost:3000/resources/. This is the resources page of Synthia where you can find additional support."
+
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

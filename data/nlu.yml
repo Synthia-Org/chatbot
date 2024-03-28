@@ -206,3 +206,21 @@ nlu:
       - I can't take this anymore
       - I have had enough
       - I'm done with life
+
+- intent: seeking_support
+    examples: |
+    -Can you talk to me? I'm feeling lonely.
+    -I need someone to listen to me.
+    -I'm going through a tough time, and I could use some support.
+    -I feel like I have nobody to turn to.
+    -I'm struggling, and I don't know what to do.
+    -I feel isolated and need someone to talk to.
+
+- intent: offering_resources
+    examples:
+    -Have you tried practicing mindfulness exercises? They can help reduce anxiety.
+    -Would you like me to provide some relaxation techniques?
+    -Here are some helpline numbers you can reach out to for immediate support.
+    -Have you considered therapy? It could be beneficial to talk to a professional.
+    -There are online support groups where you can connect with others who are going through similar experiences.
+    -Meditation and deep breathing exercises can help you manage stress. Would you like me to guide you through some?

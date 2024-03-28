@@ -42,3 +42,14 @@ stories:
   - action: utter_suicidal_intent
   - inetnt: thank
   - action: utter_welcome
+
+- story: expressing gratitude after receiving support
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_gratitude
+
