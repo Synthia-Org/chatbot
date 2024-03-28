@@ -243,3 +243,16 @@ nlu:
    - I'm worried about meeting deadlines for my assignments. How can I manage this stress?
    - I'm feeling burnt out from studying. What can I do to recharge and stay motivated?
 
+- intent: express_gratitude
+  examples: |
+    - I'm grateful for my supportive friends
+    - Thank you for always listening to me
+    - Gratitude has helped me stay positive during tough times
+    - This was helpful
+    - Thank you for helping me
+    - I'm so grateful for your support
+    - I'm so greatful for your help
+    - I'm so grateful for your guidance
+    - I'm so grateful for your advice
+    - I'm so grateful for your assistance
+    - thank you for being there for me

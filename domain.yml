@@ -12,6 +12,8 @@ intents:
   - bot_challenge
   - suicidal_intent
   - academic_stress
+  - express_gratitude
+
 
 responses:
   utter_greet:
@@ -222,7 +224,18 @@ responses:
   - text: "Dealing with academic stress can be tough, but remember that it's okay to ask for help and take care of yourself."
   - text: "Academic stress is a common challenge for students. Remember to practice self-care and reach out for support when needed."
 
-  
+
+ utter_express_gratitude:
+  - text: "I'm glad to hear that you're feeling grateful. It's important to acknowledge the positive aspects of life."
+  - text: "Expressing gratitude can have a positive impact on your well-being. It's great to hear that you're feeling grateful."
+  - text: "Gratitude is a powerful emotion that can bring joy and positivity into your life. I'm happy to hear that you're feeling grateful."
+  - text: "Gratitude is a wonderful way to cultivate happiness and contentment. It's lovely to hear that you're feeling grateful."
+  - text: "Gratitude is a beautiful practice that can enhance your overall well-being. I'm delighted to hear that you're feeling grateful."
+  - text: "Gratitude is a powerful tool that can help you find joy and peace in your life. It's wonderful to hear that you're feeling grateful."
+  - text: "I'm glad to hear that you're feeling grateful. Remember to appreciate the good things in your life."
+  - text: "Expressing gratitude is a simple yet powerful way to boost your mood and well-being. It's great to hear that you're feeling grateful."
+ 
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

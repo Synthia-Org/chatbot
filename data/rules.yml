@@ -41,3 +41,8 @@ rules:
   steps:
   - intent: academic_stress
   - action: utter_academic_stress
+
+- rule: send gratitude message after receiving support
+  steps:
+  - intent: express_gratitude
+  - action: utter_gratitude
