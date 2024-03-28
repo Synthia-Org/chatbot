@@ -232,3 +232,14 @@ nlu:
    -I'm facing a tough situation right now. Do you have any encouragement to share?
    -I could use some motivation. Can you provide some words of encouragement?
    -I'm struggling to stay positive. Can you offer any words of encouragement to lift my spirits?
+
+- intent: academic_stress
+    examples: |
+   - I'm feeling overwhelmed with my schoolwork. What should I do?
+   - I'm struggling to balance my academic responsibilities. Can you help?
+   - I'm feeling anxious about my grades. What can I do to manage this stress?
+   - I'm having trouble focusing on my studies. Do you have any tips to help me concentrate?
+   - I'm feeling stressed about my academic performance. Can you provide some strategies to cope with this pressure?
+   - I'm worried about meeting deadlines for my assignments. How can I manage this stress?
+   - I'm feeling burnt out from studying. What can I do to recharge and stay motivated?
+

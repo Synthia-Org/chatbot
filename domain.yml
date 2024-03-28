@@ -11,6 +11,7 @@ intents:
   - funny
   - bot_challenge
   - suicidal_intent
+  - academic_stress
 
 responses:
   utter_greet:
@@ -211,6 +212,16 @@ responses:
   - text: "Tough times don't last, but tough people do. You've got what it takes to overcome."
   - text: "You're not defined by your struggles. You're defined by how you overcome them."
   - text: "Your journey may be challenging, but it's also full of growth and possibility. Keep going!"
+
+  utter_academic_stress:
+  - text: "Academic stress is a common experience among students. It's important to take care of yourself and seek support when needed."
+  - text: "Managing academic stress can be challenging, but remember to prioritize your well-being and mental health."
+  - text: "Academic stress is a normal part of student life. Remember to practice self-care and reach out for help if you need it."
+  - text: "It's common to feel overwhelmed by academic stress. Remember to take breaks, practice self-care, and seek support when needed."
+  - text: "Academic stress can impact your mental health. Remember to prioritize self-care and seek help if you're struggling."
+  - text: "Dealing with academic stress can be tough, but remember that it's okay to ask for help and take care of yourself."
+  - text: "Academic stress is a common challenge for students. Remember to practice self-care and reach out for support when needed."
+
   
 session_config:
   session_expiration_time: 60
