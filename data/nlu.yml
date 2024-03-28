@@ -135,6 +135,7 @@ nlu:
     - extremly sad
     - so saad
     - so sad
+    - I'm having a bad day
 
 - intent: thank
   examples: |
